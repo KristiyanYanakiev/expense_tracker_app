@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment secret files
+.env
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Local databases (if you ever use sqlite for quick testing)
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.idea
+
+# Media and Static folders (prevents uploading user media files)
+/media/
+/static/
